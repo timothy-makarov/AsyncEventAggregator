@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEventAggregatorExamples", "AsyncEventAggregatorExamples\AsyncEventAggregatorExamples.csproj", "{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEventAggregator", "AsyncEventAggregator\AsyncEventAggregator.csproj", "{17B69D06-4272-4973-9D17-B0728005A168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B69D06-4272-4973-9D17-B0728005A168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Release|ARM.ActiveCfg = Release|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Release|x64.ActiveCfg = Release|Any CPU
+		{17B69D06-4272-4973-9D17-B0728005A168}.Release|x86.ActiveCfg = Release|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Release|ARM.ActiveCfg = Release|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Release|x64.ActiveCfg = Release|Any CPU
+		{613E2A1E-B19D-40BF-B2AF-BAE8B0952CD6}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
