@@ -1,11 +1,9 @@
-Asynchronous Event Aggregator
-=============================
-
-C# .NET TPL Based Event Aggregator with Subscribe/Publish Interface
--------------------------------------------------------------------
+## Asynchronous Event Aggregator
+### C# .NET TPL Based Event Aggregator with Subscribe/Publish Interface
 
 Event Aggregator aggregates events from multiple objects into itself, passing that same event onto its observers.
 
+### Example
 <pre>
   var p1 = new Program();
   var p2 = new Program();
