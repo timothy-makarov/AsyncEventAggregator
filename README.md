@@ -3,7 +3,27 @@
 
 Event Aggregator aggregates events from multiple objects into itself, passing that same event onto its observers.
 
-### Example
+## Download
+
+### Via Git
+To get the source code of the library via git just type:
+
+```git
+https://github.com/timothy-makarov/AsyncEventAggregator.git
+cd ./AsyncEventAggregator
+```
+
+### Via NuGet
+To install library by using [Nuget package](https://nuget.org/packages/EventAggregator/) manager execute next command:
+
+```
+Install-Package EventAggregator
+```
+
+## Dependencies
+Asynchronous Event Aggregator requires .NET Framework 4.0.
+
+## Example
 <pre>
   var p1 = new Program();
   var p2 = new Program();
