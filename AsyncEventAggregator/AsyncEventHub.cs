@@ -82,7 +82,7 @@ namespace AsyncEventAggregator
                                                                      }
                                                                      catch (Exception ex)
                                                                      {
-                                                                         return Task.Factory.FromException<object>(ex);
+                                                                         return _factory.FromException<object>(ex);
                                                                      }
                                                                  }));
                                                         }))
