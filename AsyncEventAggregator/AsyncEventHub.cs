@@ -74,8 +74,17 @@ namespace AsyncEventAggregator
 
                                                             return new ConcurrentBag<Task>(
                                                                 p.EventHandlerTaskFactories
-                                                                 .Select(
-                                                                     q => ((Func<Task<TEvent>, Task>) q)(eventDataTask)));
+                                                                 .Select(q =>
+                                                                 {
+                                                                     try
+                                                                     {
+                                                                         return ((Func<Task<TEvent>, Task>)q)(eventDataTask);
+                                                                     }
+                                                                     catch (Exception ex)
+                                                                     {
+                                                                         return Task.Factory.FromException<object>(ex);
+                                                                     }
+                                                                 }));
                                                         }))
                                             .ToArray(),
                                         taskCompletionSource.SetResult);
